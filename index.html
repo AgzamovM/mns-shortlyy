@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-widthinitial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- fonts  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Poppins:wght@500;700&display=swap"
+    rel="stylesheet">
+  <title>Shortly Project</title>
+</head>
+
+<body>
+  <!-- site-header -->
+  <header class="site-header">
+    <div class="site-header__container container">
+      <a class="site-header__logo-link" href="#">
+        <img class="site-header__logo-img" src="img/Shortly.svg" alt="Logo-img" width="120" height="33">
+      </a>
+      <nav class="site-header__sitenav sitenav">
+        <ul class="sitenav__list">
+          <li class="sitenav__item"><a href="#" class="sitenav__link">Features</a></li>
+          <li class="sitenav__item"><a href="#" class="sitenav__link">Pricing</a></li>
+          <li class="sitenav__item"><a href="#" class="sitenav__link">Resources</a></li>
+        </ul>
+      </nav>
+      <div class="sitenav-about">
+        <a href="#" class="sitenav-about__link">Login</a>
+        <a href="#" class="sitenav-about__link another">Sign Up</a>
+      </div>
+    </div>
+  </header>
+  <main class="main-content">
+    <!-- hero-content  -->
+    <div class="main-content__hero hero">
+      <div class="hero__container container">
+        <div class="hero__block">
+          <h1 class="hero__title">More than just shorter links</h1>
+          <p class="hero__text">Build your brand’s recognition and get detailed insights on how your links are performing.</p>
+          <a href="#" class="hero__link button">Get Started</a>
+        </div>
+        <img  class="hero__img" src="img/working_with_computer.svg" alt="Picture" width="733" height="482">
+      </div>
+    </div>
+  </main>
+  <section class="section-advancend">
+    <div class="section-advancend__about about container">
+
+      <div class="idex-url-shortener-features-wrapper">
+        <div class="idex-url-shortener-features-wrapper__url-shortener">
+          <!-- URL-SHORTENER-FORM  -->
+          <section class="url-shortener">
+            <!-- <div class="container"> -->
+              <form class="url-shortener__form js-url-shortener-form" action="https://echo.htmlacademy.ru" method="post" required>
+                <div class="url-shortener__input-wrapper">
+                  <input class="url-shortener__input" type="url" name="url" placeholder="Shorten a link here..."
+                  aria-label="URL input" required>
+                  <div class="url-shortener__error-msg">Please add a link</div>
+                </div>
+                <button class="url-shortener__submit button hero__link  " type="submit">Shorten It!</button>
+              </form>
+              <div class="url-shortener__results">
+                <div class="url-shortener__result">
+                  <div class="url-shortener__original-link">https://www.frontendmentor.io</div>
+                  <a class="url-shortener__short-link" href="#" target="_blank">https://rel.ink/k4lKyk</a>
+                  <button class="copy-button result-button js-copy-button" type="button">Copy</button>
+                </div>
+                <!-- second  -->
+                <div class="url-shortener__result">
+                  <div class="url-shortener__original-link">https://twitter.com/frontendmentor</div>
+                  <a class="url-shortener__short-link" href="#" target="_blank">https://rel.ink/gxOXp9</a>
+                  <button class="copy-button result-button js-copy-button" type="button">Copy</button>
+                </div>
+                <!-- thirth -->
+                <div class="url-shortener__result">
+                  <div class="url-shortener__original-link">https://www.linkedin.com/company/frontend-mentor</div>
+                  <a class="url-shortener__short-link" href="#" target="_blank">https://rel.ink/gob3X9</a>
+                  <button class="copy-button result-button js-copy-button" type="button">Copy</button>
+                </div>
+              </div>
+            <!-- </div> -->
+          </section>
+        </div>
+      </div>
+
+      <div class="about__title">Advanced Statistics</div>
+      <div class="about__text">Track how your links are performing across the web with <br> our advanced statistics dashboard.</div>
+      <ul class="about__list inner">
+        <!-- firth  -->
+        <li class="inner__item">
+          <div class="inner__img block">
+            <img class="inner__img" src="img/diagramma-icon.svg" alt="Photo-icon" width="40" height="40" >
+          </div>
+          <h2 class="inner__title">Brand Recognition</h2>
+          <p class="inner_text">Boost your brand recognition with  each click. Generic links don’t mean <br> a thing. Branded links help instil confidence in your content.</p>      
+        </li>
+        <!-- second  -->
+        <li class="inner__item">
+          <div class="inner__img block">
+            <img class="inner__img" src="img/comps-icon.svg" alt="Photo-icon" width="40" height="40" >
+          </div>
+          <h2 class="inner__title">Detailed Records</h2>
+          <p class="inner_text">Gain insights into who is clicking your links. Knowing when and where people engage with  your content helps inform better decisions.</p>      
+        </li>
+        <!-- thirth  -->
+        <li class="inner__item">
+          <div class="inner__img block">
+            <img class="inner__img" src="img/Shape.svg" alt="Photo-icon" width="40" height="40">
+          </div>
+          <h2 class="inner__title">Fully Customizable</h2>
+          <p class="inner_text">Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>      
+        </li>
+      </ul>
+    </div>
+    <div class="boost">
+      <div class="boots__container container">
+        <h2 class="boost__title">Boost your links today</h2>
+        <a class="boost__link" href="#">Get Started</a>
+      </div>
+    </div>
+  </section>
+  <footer class="site-footer">
+    <div class="site-footer__container container">
+      <div class="site-footer__logo"><img src="img/Shortly-white.svg" alt="Logo-img" width="120" height="33"></div>
+      <div class="site-footer__about aboutb">
+        <div class="aboutb__wrapper">
+          <ul class="aboutb__list">
+            <li class="aboutb__item features">
+              <ul class="features__list">
+                <li class="features__item"><h2 class="features__tittle">Features</h2></li>
+                <li class="features__item"><a class="features__link" href="#">Link Shortening</a></li>
+                <li class="features__item"><a class="features__link" href="#">Branded Links</a></li>
+                <li class="features__item"><a class="features__link" href="#">Analytics</a></li>
+              </ul>
+            </li>
+            <li class="aboutb__item resources">
+              <ul class="resources__list">
+                <li class="resources__item"> <h2 class="resources__title">Resources</h2></li>
+                <li class="resources__item"><a class="resources__link" href="#">Blog</a></li>
+                <li class="resources__item"><a class="resources__link" href="#">Developers</a></li>
+                <li class="resources__item"><a class="resources__link" href="#">Support</a></li>
+              </ul>
+            </li>
+            <li class="aboutb__item company">
+              <ul class="company__list">
+                <li class="company__item"><h2 class="company__title">Company</h2></li>
+                <li class="company__item"><a class="company__link" href="#">About</a></li>
+                <li class="company__item"><a class="company__link" href="#">Our Team</a></li>
+                <li class="company__item"><a class="company__link" href="#">Careers</a></li>
+                <li class="company__item"><a class="company__link" href="#">Contact</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="site-footer__icon icon">
+          <ul class="icon__list">
+            <li class="icon__item"><a class="icon__link" href="#" ><img class="icon__img" src="img/facebook.svg" alt="Facebook"></a></li>
+            <li class="icon__item"><a class="icon__link" href="#" ><img class="icon__img" src="img/twitter.svg" alt="Twitter"></a></li>
+            <li class="icon__item"><a class="icon__link" href="#" ><img class="icon__img" src="img/Path.svg" alt="Another"></a></li>
+            <li class="icon__item"><a class="icon__link" href="#" ><img class="icon__img" src="img/insta.svg" alt="Instagramm"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
